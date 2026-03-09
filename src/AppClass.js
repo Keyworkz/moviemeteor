@@ -3,6 +3,6 @@ import "./AppClass.css";
 
 export default class AppClass extends Component {
   render() {
-    return <h1 className="h1-orangered">Hello, World</h1>;
+    return <h1 className="h1-orangered">{this.props.msg}</h1>;
   }
 }

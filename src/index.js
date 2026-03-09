@@ -9,8 +9,8 @@ root.render(
     <div className="container">
       <div className="row">
         <div className="col">
-          <AppClass />
-          <HelloWorld />
+          <AppClass msg="Hello, world" />
+          <HelloWorld msg="Hello, Mohamed" />
         </div>
       </div>
     </div>
